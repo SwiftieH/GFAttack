@@ -182,7 +182,7 @@ class GCN:
             self.session.run(list(self.assign_ops.values()), feed_dict = {val: var_dict[self.convert_varname(key, to_namespace)]
                                                                      for key, val in self.assign_placeholders.items()})
 
-    def train(self, An, split_train, split_val, Z_obs, patience=30, n_iters=200, print_info=True):
+    def train(self, An, split_train, split_val, Z_obs, patience=60, n_iters=200, print_info=True):
         """
         Train the GCN model on the provided data.
 
