@@ -1,7 +1,7 @@
 # GF_Attack
 This repository is the official Tensorflow implementation of "A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models".
 
-Heng Chang, Yu Rong, Tingyang Xu, Wenbing Huang, Honglei Zhang, Peng Cui, Wenwu Zhu, Junzhou Huang, [A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models](https://arxiv.org/pdf/1908.01297.pdf), AAAI 2020.
+Heng Chang, Yu Rong, Tingyang Xu, Wenbing Huang, Honglei Zhang, Peng Cui, Wenwu Zhu, Junzhou Huang, [A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models](https://arxiv.org/abs/1908.01297), AAAI 2020.
 
 ![framework](https://tva1.sinaimg.cn/large/006tNbRwgy1ga0buxk4wcj31mi0ig454.jpg)
 
