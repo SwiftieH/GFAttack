@@ -26,7 +26,7 @@ class GFA:
         #The order of graph filter K
         self.K = K
 
-        #Top-T largest singular values/vectors selected
+        #Top-T largest eigen-values/vectors selected
         self.T = T
 
         # Node labels

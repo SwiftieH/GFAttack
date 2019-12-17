@@ -27,7 +27,7 @@ parser = ArgumentParser("rdlink_gcn",
                         conflict_handler='resolve')
 parser.add_argument("--dataset", required=True, help='dataset string.') # 'citeseer', 'cora', 'pubmed'
 parser.add_argument("--K", default=2, help='The order of graph filter K.')
-parser.add_argument("--T", default=128, help='Top-T largest singular values/vectors selected.')
+parser.add_argument("--T", default=128, help='Top-T largest eigen-values/vectors selected.')
 args = parser.parse_args()
 
 
