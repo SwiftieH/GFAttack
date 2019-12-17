@@ -6,8 +6,10 @@ Heng Chang, Yu Rong, Tingyang Xu, Wenbing Huang, Honglei Zhang, Peng Cui, Wenwu 
 ![framework](https://tva1.sinaimg.cn/large/006tNbRwgy1ga0buxk4wcj31mi0ig454.jpg)
 
 ## Requirements
+The script has been tested running under Python 3.6.5, with the following packages installed (along with their dependencies):
 * tensorflow (tested on 1.14.0)
 * scipy (tested on 1.2.1)
+* numpy (tested on 1.17.2)
 
 ## Run
 - 2 order of graph filter, selecting Top-128 largest eigen-values/vectors.
