@@ -18,4 +18,6 @@ python main.py --dataset cora --K 2 --T 128
 ```
 We only did Top-128 and Top-Half largest eigen-values/vectors to get the results in paper. To get better performance, tuning the hyper-parameters is highly encouraged.
 
+## Acknowledgement
+This repo is modified from [NETTACK](https://github.com/danielzuegner/nettack), and we sincerely thank them for their contributions.
 
