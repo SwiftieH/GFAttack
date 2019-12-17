@@ -2,7 +2,6 @@
 # coding: utf-8
 
 import time
-from matplotlib import pyplot as plt
 
 from GF_Attack import utils, GCN
 from GF_Attack import GFA
@@ -27,6 +26,8 @@ parser = ArgumentParser("rdlink_gcn",
                         formatter_class=ArgumentDefaultsHelpFormatter,
                         conflict_handler='resolve')
 parser.add_argument("--dataset", required=True, help='dataset string.') # 'citeseer', 'cora', 'pubmed'
+parser.add_argument("--K", default=2, help='The order of graph filter K.')
+parser.add_argument("--T", default=128, help='Top-T largest singular values/vectors selected.')
 args = parser.parse_args()
 
 
@@ -59,8 +60,8 @@ sizes = [16, _K]
 degrees = _A_obs.sum(0).A1
 
 X_mean = np.sum(_X_obs, axis = 1)
-K = 2
-T = _N//2 #Default as 128
+K = int(args.K)
+T = int(args.T) #T=128 for citeseer and pubmed, T=_N//2 for cora to reproduce results in paper.
 
 seed = 15
 unlabeled_share = 0.8

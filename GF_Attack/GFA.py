@@ -1,9 +1,6 @@
 import numpy as np
 import scipy.sparse as sp
 from GF_Attack import utils
-from numba import jit
-import os
-import networkx as nx
 from scipy import linalg
 
 class GFA:
