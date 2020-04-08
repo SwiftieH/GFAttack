@@ -21,3 +21,15 @@ We only did Top-128 and Top-Half largest eigen-values/vectors to get the results
 ## Acknowledgement
 This repo is modified from [NETTACK](https://github.com/danielzuegner/nettack), and we sincerely thank them for their contributions.
 
+## Reference
+- If you find ``GF-Attack`` useful in your research, please cite the following in your manuscript:
+
+```
+@inproceedings{chang2020restricted,
+  title={A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models},
+  author={Chang, Heng and Rong, Yu and Xu, Tingyang and Huang, Wenbing and Zhang, Honglei and Cui, Peng and Zhu, Wenwu and Huang, Junzhou},
+  year={2020},
+  organization={AAAI}
+}
+```
+
