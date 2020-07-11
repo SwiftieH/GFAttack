@@ -12,7 +12,7 @@ The script has been tested running under Python 3.6.5, with the following packag
 * numpy (tested on 1.17.2)
 
 ## Run
-- 2 order of graph filter, selecting Top-128 largest eigen-values/vectors.
+- 2 order of graph filter, selecting Top-128 smallest eigen-values/vectors.
 ```bash
 python main.py --dataset cora --K 2 --T 128
 ```
