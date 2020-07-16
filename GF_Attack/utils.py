@@ -87,7 +87,6 @@ def largest_connected_components(adj, n_components=1):
 def train_val_test_split_tabular(*arrays, train_size=0.5, val_size=0.3, test_size=0.2, stratify=None, random_state=None):
     """
     Split the arrays or matrices into random train, validation and test subsets.
-    #train_test_split重写成可以分出验证集的函数
 
     Parameters
     ----------
