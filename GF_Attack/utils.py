@@ -149,7 +149,7 @@ def cal_scores(A, X_mean, eig_vals, eig_vec, filtered_edges, K=2, T=128, lambda_
         The order of graph filter K.
 
     T: int, default: 128
-        Selecting the Top-T largest eigen-values/vectors.
+        Selecting the Top-T smallest eigen-values/vectors.
 
     lambda_method: "sum"/"nosum", default: "nosum"
         Indicates the scores are calculated from which loss as in Equation (8) or Equation (12).
