@@ -26,10 +26,13 @@ This repo is modified from [NETTACK](https://github.com/danielzuegner/nettack), 
 
 ```
 @inproceedings{chang2020restricted,
-  title={A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models},
+  title={A restricted black-box adversarial framework towards attacking graph embedding models},
   author={Chang, Heng and Rong, Yu and Xu, Tingyang and Huang, Wenbing and Zhang, Honglei and Cui, Peng and Zhu, Wenwu and Huang, Junzhou},
-  year={2020},
-  organization={AAAI}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={34},
+  number={04},
+  pages={3389--3396},
+  year={2020}
 }
 ```
 
